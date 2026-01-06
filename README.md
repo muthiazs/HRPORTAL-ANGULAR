@@ -25,6 +25,10 @@ This application simulates a corporate **HR Information System (HRIS)**.
 * **Deployment:** GitHub Pages
 
 ---
+<img width="1908" height="994" alt="image" src="https://github.com/user-attachments/assets/ac35a53d-5879-40c8-88c5-9c280a44e479" />
+<img width="1913" height="964" alt="image" src="https://github.com/user-attachments/assets/1f0cd530-cc4e-4f64-aa4d-e05994a68468" />
+<img width="1909" height="1012" alt="image" src="https://github.com/user-attachments/assets/6548c0c3-f002-4956-9d52-1dcb07c6f582" />
+
 
 
 ## 💻 How to Run Locally
