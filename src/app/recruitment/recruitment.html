@@ -1,0 +1,21 @@
+<div style="margin-bottom: 20px;">
+    <h2 style="margin: 0; color: #2c3e50;">🚀 Recruitment Pipeline</h2>
+    <p style="margin: 5px 0 0 0; color: gray;">Track active candidates.</p>
+</div>
+
+<mat-card>
+  <mat-list>
+    <div *ngFor="let c of candidates">
+        <mat-list-item>
+            <mat-icon matListItemIcon style="color: #3f51b5;">person</mat-icon>
+            <span matListItemTitle style="font-weight: bold;">{{ c.name }}</span>
+            <span matListItemLine>
+                Applying for <b>{{ c.role }}</b> — <span style="color: orange;">{{ c.status }}</span>
+            </span>
+            <button mat-icon-button matListItemMeta>
+                <mat-icon>chevron_right</mat-icon>
+            </button>
+        </mat-list-item>
+        <mat-divider></mat-divider> </div>
+  </mat-list>
+</mat-card>

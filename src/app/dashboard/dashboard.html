@@ -1,0 +1,25 @@
+<div class="dashboard-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px;">
+  
+  <mat-card *ngFor="let stat of stats" class="stat-card">
+    <mat-card-content style="display: flex; justify-content: space-between; align-items: flex-start; padding: 16px;">
+      <div>
+        <p style="color: gray; font-size: 13px; font-weight: 500; text-transform: uppercase; margin: 0;">
+          {{ stat.title }}
+        </p>
+        <h2 style="margin: 8px 0; font-size: 32px; font-weight: bold;">
+          {{ stat.value }}
+        </h2>
+        <span style="font-size: 12px; color: gray;">
+          {{ stat.desc }}
+        </span>
+      </div>
+      
+      <div [style.background-color]="stat.color + '15'" 
+           [style.color]="stat.color" 
+           style="padding: 12px; border-radius: 12px; display: flex;">
+        <mat-icon>{{ stat.icon }}</mat-icon>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+</div>
