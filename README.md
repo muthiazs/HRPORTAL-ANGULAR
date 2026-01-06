@@ -1,59 +1,93 @@
-# HRPORTAL
+# 👥 HR Portal - Enterprise Dashboard
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.4.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 
-## Development server
+A responsive, high-performance **Single Page Application (SPA)** designed for Human Resources management. This project serves as a technical demonstration of building scalable frontend applications using **Angular 17+** and **Angular Material**.
 
-To start a local development server, run:
+🔗 **Live Demo:** [View HR Portal](https://muthiazs.github.io/HRPORTAL-ANGULAR/)
 
-```bash
-ng serve
-```
+---
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📖 Project Overview
 
-## Code scaffolding
+This application simulates a corporate **HR Information System (HRIS)**. It solves common administrative problems by providing a unified interface for:
+* Visualizing workforce statistics.
+* Managing employee databases (CRUD simulation).
+* Tracking recruitment pipelines.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+The goal of this project was to implement **Clean Architecture** principles in a frontend environment, ensuring the codebase is modular, maintainable, and type-safe.
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 🚀 Key Technical Features
 
-```bash
-ng generate --help
-```
+### 1. Modular Component Architecture
+Instead of a monolithic structure, the application is decoupled into functional feature modules. This ensures **Separation of Concerns**:
+* `DashboardComponent`: Handles data visualization and key metrics widgets.
+* `EmployeesComponent`: Manages data grids and transactional operations.
+* `RecruitmentComponent`: Tracks candidate status using list views.
 
-## Building
+### 2. Angular Routing (SPA)
+Utilized `@angular/router` to create a seamless user experience without page reloads.
+* Implemented lazy-loading compatible route definitions.
+* Configured active state styling (`routerLinkActive`) for intuitive navigation.
 
-To build the project run:
+### 3. Strict Typing with TypeScript
+To mimic enterprise-grade reliability, I implemented strict **Interfaces** (`Employee`, `StatCard`, `Candidate`).
+* Prevents runtime errors by catching type mismatches during development.
+* Ensures consistent data structures across services and components.
 
-```bash
-ng build
-```
+### 4. Responsive Design System
+Built using **Angular Material** to adhere to Google's Material Design guidelines:
+* **Layout:** Responsive `MatSidenav` that adapts to screen sizes.
+* **Components:** Utilized `MatTable`, `MatCard`, and `MatFormField` for a polished UI.
+* **UX:** Interactive states (ripples, hover effects) and feedback loops.
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+---
 
-## Running unit tests
+## 🛠️ Tech Stack
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+* **Framework:** Angular 17 (Standalone Components)
+* **Language:** TypeScript 5.x
+* **UI Library:** Angular Material & CDK
+* **Build Tool:** Angular CLI
+* **Deployment:** GitHub Pages
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 💻 How to Run Locally
 
-## Additional Resources
+If you want to explore the code structure:
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/thiaanyaaa/HRPORTAL-ANGULAR.git](https://github.com/thiaanyaaa/HRPORTAL-ANGULAR.git)
+    ```
+
+2.  **Install Dependencies**
+    ```bash
+    cd HRPORTAL-ANGULAR
+    npm install
+    ```
+
+3.  **Run Development Server**
+    ```bash
+    ng serve
+    ```
+    Navigate to `http://localhost:4200/`.
+
+---
+
+## 👤 Author
+
+**Muthia Z.**
+* *Aspiring Tech Professional with a background in Computer Science.*
+* Connect with me on [LinkedIn](LINK_LINKEDIN_KAMU_DISINI)
+
+---
