@@ -53,7 +53,6 @@ If you want to explore the code structure:
 ## 👤 Author
 
 **Muthia Z.**
-* *Aspiring Tech Professional with a background in Computer Science.*
 * Connect with me on [LinkedIn](https://www.linkedin.com/in/muthia-zhafira/)
 
 ---
